@@ -97,9 +97,6 @@
       }
    ],
    "asset" : {
-      "extras" : {
-         "GOOGLE_processor_version" : 294144208
-      },
       "generator" : "Obj2GltfConverter",
       "version" : "2.0"
    },
@@ -140,42 +137,6 @@
          "uri" : "map.bin"
       }
    ],
-   "cameras" : [
-      {
-         "perspective" : {
-            "yfov" : 0.7853981633974483,
-            "znear" : 0.1000000014901161
-         },
-         "type" : "perspective"
-      }
-   ],
-   "extensions" : {
-      "KHR_lights_punctual" : {
-         "lights" : [
-            {
-               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
-               "intensity" : 0.25,
-               "name" : "headLight",
-               "type" : "directional"
-            },
-            {
-               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
-               "intensity" : 0.324999988079071,
-               "name" : "keyLight",
-               "type" : "directional"
-            }
-         ]
-      }
-   },
-   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
-   "extras" : {
-      "GOOGLE_initial_camera_motion" : {
-         "motionPath" : "FULL_ROTATION"
-      },
-      "GOOGLE_lighting_rig" : {
-         "disableShadows" : false
-      }
-   },
    "images" : [
       {
          "mimeType" : "image/jpeg",
@@ -233,57 +194,6 @@
       {
          "mesh" : 0,
          "name" : "node-0"
-      },
-      {
-         "children" : [ 2 ]
-      },
-      {
-         "children" : [ 3 ],
-         "extras" : {
-            "isTransformNode" : 1
-         },
-         "translation" : [ 0, 0.005030999891459942, 0.02289369106292726 ]
-      },
-      {
-         "children" : [ 0 ],
-         "translation" : [ 0, -0.005030999891459942, -0.02289369106292726 ]
-      },
-      {
-         "camera" : 0,
-         "children" : [ 5 ],
-         "rotation" : [
-            -0.2819490151446422,
-            -0.2415217196150839,
-            -0.07356941391195286,
-            0.9256130688088792
-         ],
-         "translation" : [ -6.055241759449545, 8.327305782238092, 10.83601149101642 ]
-      },
-      {
-         "extensions" : {
-            "KHR_lights_punctual" : {
-               "light" : 0
-            }
-         },
-         "extras" : {
-            "isHeadLight" : 1
-         },
-         "name" : "headLightNode",
-         "translation" : [ -5.981119701864437, 2.990559850932219, 2.990559850932219 ]
-      },
-      {
-         "extensions" : {
-            "KHR_lights_punctual" : {
-               "light" : 1
-            }
-         },
-         "extras" : {
-            "isKeyLight" : 1
-         },
-         "name" : "keyLightNode",
-         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
-         "scale" : [ 0, 0, 6.040930898883082 ],
-         "translation" : [ -6.040930805999177, 12.08689279765762, -6.040930991766987 ]
       }
    ],
    "samplers" : [
@@ -293,34 +203,10 @@
          "wrapT" : 10497
       }
    ],
-   "scene" : 0,
    "scenes" : [
       {
-         "extensions" : {
-            "GOOGLE_backgrounds" : {
-               "color" : [ 0.3764705882352941, 0.4901960784313725, 0.5450980392156862 ]
-            },
-            "GOOGLE_camera_settings" : {}
-         },
-         "extras" : {
-            "GOOGLE_camera_index" : {
-               "cameraIndex" : 0,
-               "nodeIndex" : 4
-            },
-            "GOOGLE_geometry_data" : {
-               "stats" : {
-                  "centroid" : [ 9.288390477498372e-08, 0.005030999891459942, -9.288390477498372e-08 ],
-                  "radius" : 5.981119701864437,
-                  "stdev" : 3.418530493984304
-               },
-               "visualCenterPoint" : [ 0, 0.005030999891459942, 0.02289369106292726 ]
-            },
-            "GOOGLE_hemi_light" : {
-               "groundColor" : [ 0.3764705882352941, 0.4901960784313725, 0.5450980392156862 ]
-            }
-         },
          "name" : "scene-0",
-         "nodes" : [ 1, 4, 6 ]
+         "nodes" : [ 0 ]
       }
    ],
    "textures" : [
